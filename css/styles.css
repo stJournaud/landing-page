@@ -70,7 +70,7 @@ header nav .nav-list {
     padding: 5px 20px;
 }
 
-#infos {
+#infos-section {
     display: flex;
     flex-direction: column;
     padding: 2% 10% 5% 10%;
@@ -78,7 +78,7 @@ header nav .nav-list {
     text-align: center;
 }
 
-#infos h2 {
+#infos-section h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -109,4 +109,23 @@ header nav .nav-list {
 #card-section .card-text {
     font-size: 18px;
     font-weight: 300;
+}
+
+#quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 10% 5% 10%;
+    background-color: #E5E7EB;
+}
+
+#quote-section #quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#quote-section #author {
+    font-weight: bold;
+    align-self: end;
 }
