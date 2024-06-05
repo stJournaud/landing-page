@@ -129,3 +129,49 @@ header nav .nav-list {
     font-weight: bold;
     align-self: end;
 }
+
+#action-section {
+    display: flex;
+    flex-direction: row;
+    padding: 2% 10% 5% 10%;
+    justify-content: center;
+}
+
+#action-section #action-wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 50px;
+    border-radius: 5px;
+    color: #F9FAF8;
+}
+
+#action-section #action-wrapper .left {
+    margin-right: 5%;
+}
+
+#action-section #action-wrapper .left #action-title {
+    line-height: 0px;
+    font-weight: bolder;
+}
+
+#action-section #action-wrapper .left #action-text {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: lighter;
+}
+
+#action-section #action-wrapper .right {
+    margin-left: 5%;
+}
+
+#action-section #action-wrapper .right #action-btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
